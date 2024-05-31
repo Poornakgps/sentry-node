@@ -16,7 +16,7 @@ app.get("/", function rootHandler(req, res) {
 });
 
 app.get("/debug-sentry", function mainHandler(req, res) {
-    throw new Error("My first Sentry error!");
+    throw new Error("My second Sentry error!");
   });
 
   app.get("/1", function rootHandler(req, res) {
